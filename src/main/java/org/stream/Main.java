@@ -1,9 +1,6 @@
 package org.stream;
 
-import org.stream.functional.ConsumerInterface;
-import org.stream.functional.PredicateInterface;
-import org.stream.functional.SupplierInterface;
-import org.stream.functional.LambdaExpression;
+import org.stream.functional.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,6 +23,11 @@ public class Main {
         PredicateInterface predicateInterface = new PredicateInterface();
         predicateInterface.practicePredicate();
         System.out.println("---------- Predicate Interface End -----------");
+
+        System.out.println("---------- Comparator Interface Start -----------");
+        ComparatorInterface comparatorInterface = new ComparatorInterface();
+        comparatorInterface.practiceComparator();
+        System.out.println("---------- Comparator Interface End -----------");
 
     }
 }
