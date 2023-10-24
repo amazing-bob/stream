@@ -1,6 +1,7 @@
 package org.stream;
 
 import org.stream.functional.*;
+import org.stream.methodreference.MethodReference;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,5 +30,9 @@ public class Main {
         comparatorInterface.practiceComparator();
         System.out.println("---------- Comparator Interface End -----------");
 
+        System.out.println("---------- Method Reference Start -----------");
+        MethodReference methodReference = new MethodReference();
+        methodReference.practiceMethodReference();
+        System.out.println("---------- Method Reference End -----------");
     }
 }
