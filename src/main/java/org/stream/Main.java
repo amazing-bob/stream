@@ -2,6 +2,10 @@ package org.stream;
 
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
+import org.stream.stream.StreamFilter;
+import org.stream.stream.StreamInterface;
+import org.stream.stream.StreamIntermediateOperation;
+import org.stream.stream.StreamMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,5 +38,25 @@ public class Main {
         MethodReference methodReference = new MethodReference();
         methodReference.practiceMethodReference();
         System.out.println("---------- Method Reference End -----------");
+
+        System.out.println("---------- Stream Start -----------");
+        StreamInterface streamInterface = new StreamInterface();
+        streamInterface.practiceStream();
+        System.out.println("---------- Stream End -----------");
+
+        System.out.println("---------- StreamFilter Start -----------");
+        StreamFilter streamFilter = new StreamFilter();
+        streamFilter.practiceStreamFilter();
+        System.out.println("---------- StreamFilter End -----------");
+
+        System.out.println("---------- StreamMap Start -----------");
+        StreamMap streamMap = new StreamMap();
+        streamMap.practiceStreamMap();
+        System.out.println("---------- StreamMap End -----------");
+
+        System.out.println("---------- StreamIntermediateOperation Start -----------");
+        StreamIntermediateOperation treamIntermediateOperation = new StreamIntermediateOperation();
+        treamIntermediateOperation.practiceStreamIntermediateOperation();
+        System.out.println("---------- StreamIntermediateOperation End -----------");
     }
 }
