@@ -61,5 +61,10 @@ public class Main {
         StreamSorted streamSorted = new StreamSorted();
         streamSorted.practiceStreamSorted();
         System.out.println("---------- StreamSorted End -----------");
+
+        System.out.println("---------- StreamDistinct Start -----------");
+        StreamDistinct streamDistinct = new StreamDistinct();
+        streamDistinct.practiceStreamDistinct();
+        System.out.println("---------- StreamDistinct End -----------");
     }
 }
