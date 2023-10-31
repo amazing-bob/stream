@@ -2,10 +2,7 @@ package org.stream;
 
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
-import org.stream.stream.StreamFilter;
-import org.stream.stream.StreamInterface;
-import org.stream.stream.StreamIntermediateOperation;
-import org.stream.stream.StreamMap;
+import org.stream.stream.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -59,5 +56,10 @@ public class Main {
         StreamIntermediateOperation treamIntermediateOperation = new StreamIntermediateOperation();
         treamIntermediateOperation.practiceStreamIntermediateOperation();
         System.out.println("---------- StreamIntermediateOperation End -----------");
+
+        System.out.println("---------- StreamSorted Start -----------");
+        StreamSorted streamSorted = new StreamSorted();
+        streamSorted.practiceStreamSorted();
+        System.out.println("---------- StreamSorted End -----------");
     }
 }
