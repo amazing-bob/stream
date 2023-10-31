@@ -66,5 +66,10 @@ public class Main {
         StreamDistinct streamDistinct = new StreamDistinct();
         streamDistinct.practiceStreamDistinct();
         System.out.println("---------- StreamDistinct End -----------");
+
+        System.out.println("---------- StreamFlatMap Start -----------");
+        StreamFlatMap streamFlatMap = new StreamFlatMap();
+        streamFlatMap.practiceStreamFlatMap();
+        System.out.println("---------- StreamFlatMap End -----------");
     }
 }
