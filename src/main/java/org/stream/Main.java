@@ -9,6 +9,7 @@ import org.stream.stream.StreamMap;
 
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("---------- Lambda Expression Start -----------");
         LambdaExpression lambdaExpression = new LambdaExpression();
         lambdaExpression.practiceLambdaExpression();

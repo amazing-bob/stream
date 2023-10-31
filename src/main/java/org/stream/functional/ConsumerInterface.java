@@ -16,9 +16,11 @@ public class ConsumerInterface {
         Consumer<Integer> myIntegerProcessor = x ->
                 System.out.println("Processing integer " + x);
         process(integerInputs, myIntegerProcessor);
+
         Consumer<Integer> myDifferentIntegerProcessor = x ->
                 System.out.println("Processing integer in different way " + x);
         process(integerInputs, myDifferentIntegerProcessor);
+
         Consumer<Double> myDoubleProcessor = x ->
                 System.out.println("Processing double in different way " + x);
         List<Double> doubleInputs = Arrays.asList(1.1, 1.2, 1.3);

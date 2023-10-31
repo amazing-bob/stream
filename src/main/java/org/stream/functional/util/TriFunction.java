@@ -1,4 +1,4 @@
-package org.stream.util;
+package org.stream.functional.util;
 
 @FunctionalInterface
 public interface TriFunction<T, U, V, R> {

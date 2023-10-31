@@ -1,4 +1,4 @@
-package org.stream.util;
+package org.stream.functional.util;
 
 import java.util.function.Function;
 
