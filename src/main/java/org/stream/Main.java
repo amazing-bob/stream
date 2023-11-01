@@ -2,6 +2,7 @@ package org.stream;
 
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
+import org.stream.optional.OptionalTest;
 import org.stream.stream.*;
 
 public class Main {
@@ -71,5 +72,10 @@ public class Main {
         StreamFlatMap streamFlatMap = new StreamFlatMap();
         streamFlatMap.practiceStreamFlatMap();
         System.out.println("---------- StreamFlatMap End -----------");
+
+        System.out.println("---------- OptionalTest Start -----------");
+        OptionalTest optionalTest = new OptionalTest();
+        optionalTest.practiceOptional();
+        System.out.println("---------- OptionalTest End -----------");
     }
 }
