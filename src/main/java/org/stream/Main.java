@@ -1,5 +1,9 @@
 package org.stream;
 
+import org.stream.advenced.AllMatchAnyMatch;
+import org.stream.advenced.FindFirstFindAny;
+import org.stream.advenced.MaxMinCount;
+import org.stream.advenced.Reduce;
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
 import org.stream.optional.OptionalTest;
@@ -77,5 +81,25 @@ public class Main {
         OptionalTest optionalTest = new OptionalTest();
         optionalTest.practiceOptional();
         System.out.println("---------- OptionalTest End -----------");
+
+        System.out.println("---------- MaxMinCount Start -----------");
+        MaxMinCount maxMinCount = new MaxMinCount();
+        maxMinCount.practiceMaxMinCount();
+        System.out.println("---------- MaxMinCount End -----------");
+
+        System.out.println("---------- AllMatchAnyMatch Start -----------");
+        AllMatchAnyMatch allMatchAnyMatch = new AllMatchAnyMatch();
+        allMatchAnyMatch.practiceAllMatchAnyMatch();
+        System.out.println("---------- AllMatchAnyMatch End -----------");
+
+        System.out.println("---------- FindFirstFindAny Start -----------");
+        FindFirstFindAny findFirstFindAny = new FindFirstFindAny();
+        findFirstFindAny.practiceFindFirstFindAny();
+        System.out.println("---------- FindFirstFindAny End -----------");
+
+        System.out.println("---------- Reduce Start -----------");
+        Reduce reduce = new Reduce();
+        reduce.practiceReduce();
+        System.out.println("---------- Reduce End -----------");
     }
 }
