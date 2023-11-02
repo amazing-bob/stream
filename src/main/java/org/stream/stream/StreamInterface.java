@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamInterface {
-    public void practiceStream() {
+    public void testStream() {
         // Stream 이 뭔가? 기본 사용
         Stream<String> nameStream = Stream.of("Alice", "Bob", "Charlie");
         List<String> names = nameStream.collect(Collectors.toList());

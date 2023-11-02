@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamFlatMap {
-    public void practiceStreamFlatMap() {
+    public void testStreamFlatMap() {
         String[][] cities = new String[][] {
                 {"Seoul", "Busan"},
                 {"San Francisco", "New York"},

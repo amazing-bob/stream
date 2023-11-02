@@ -7,7 +7,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 public class LambdaExpression {
-    public void practiceLambdaExpression() {
+    public void testLambdaExpression() {
         Function<Integer, Integer> myAdder = new Adder();
         int result = myAdder.apply(5);
         System.out.println("result :: " + result);

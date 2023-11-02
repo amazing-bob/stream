@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StreamDistinct {
-    public void practiceStreamDistinct() {
+    public void testStreamDistinct() {
         // TODO: distinct numbers
         List<Integer> numbers = Arrays.asList(3, -5, 4, -5, 2, 3);
         List<Integer> distinctNumbers = numbers.stream()

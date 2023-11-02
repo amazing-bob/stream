@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Reduce {
-    public void practiceReduce() {
+    public void testReduce() {
         List<Integer> numbers = Arrays.asList(1, 4, -2, -4, 6);
         int sum = numbers.stream()
                 .reduce((x, y) -> x +y)

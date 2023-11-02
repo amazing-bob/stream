@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StreamSorted {
-    public void practiceStreamSorted() {
+    public void testStreamSorted() {
         //TODO: sort numbers
         List<Integer> numbers = Arrays.asList(3, -5, 7, 4);
         List<Integer> sortedNumbers = numbers.stream()

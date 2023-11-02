@@ -14,7 +14,7 @@ import java.util.function.Predicate;
 
 public class MethodReference {
 
-    public void practiceMethodReference() {
+    public void testMethodReference() {
         // ClassName::staticMethodName => 클래스의 static method를 지정할 때
         int a = Integer.parseInt("15");
         Function<String, Integer> str2int = Integer::parseInt;

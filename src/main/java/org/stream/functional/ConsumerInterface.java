@@ -6,7 +6,7 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 public class ConsumerInterface {
-    public void practiceConsumer() {
+    public void testConsumer() {
         Consumer<String> myStringCnosumer = str -> System.out.println(str);
 //        myStringCnosumer.accept("hello");
         myStringCnosumer.accept("world");

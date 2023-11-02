@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamMap {
-    public void practiceStreamMap() {
+    public void testStreamMap() {
         List<Integer> numberList = Arrays.asList(3, 6, -4);
 //        Stream<Integer> numberStream = numberList.stream();
 //        Stream<Integer> numberStreamX2 = numberStream.map(x -> x * 2);

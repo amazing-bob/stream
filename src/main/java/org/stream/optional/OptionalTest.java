@@ -5,7 +5,7 @@ import org.stream.optional.model.User;
 import java.util.Optional;
 
 public class OptionalTest {
-    public void practiceOptional() {
+    public void testOptional() {
         User user1 = new User()
                 .setId(1001)
                 .setName("Alice")

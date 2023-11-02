@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class AllMatchAnyMatch {
-    public void practiceAllMatchAnyMatch() {
+    public void testAllMatchAnyMatch() {
         List<Integer> numbers = Arrays.asList(3, -1, 2, 4, 7, 9);
         boolean allPositive = numbers.stream()
                 .allMatch(num -> num > 0);

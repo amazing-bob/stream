@@ -3,7 +3,7 @@ package org.stream.functional;
 import java.util.function.Supplier;
 
 public class SupplierInterface {
-    public void practiceSupplier() {
+    public void testSupplier() {
         Supplier<String> myStringSupplier = () -> "Hello World";
         System.out.println(myStringSupplier.get());
 

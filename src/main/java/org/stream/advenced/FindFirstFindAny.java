@@ -4,7 +4,7 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 public class FindFirstFindAny {
-    public void practiceFindFirstFindAny() {
+    public void testFindFirstFindAny() {
         Optional<Integer> anyNegativeInteger = Stream.of(3, 2, -5, 6 -7)
                 .filter(x -> x < 0)
                 .findAny();

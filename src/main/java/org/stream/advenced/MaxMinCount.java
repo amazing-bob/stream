@@ -4,7 +4,6 @@ import org.stream.advenced.model.User;
 import org.stream.stream.model.Order;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Arrays;
@@ -13,7 +12,7 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 public class MaxMinCount {
-    public void practiceMaxMinCount() {
+    public void testMaxMinCount() {
         Optional<Integer> max = Stream.of(5, 3, 6, 2, 1)
 //                .max((x, y) -> x - y);
                 .max(Integer::compareTo);

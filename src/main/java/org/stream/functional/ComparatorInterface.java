@@ -10,7 +10,7 @@ import java.util.List;
 public class ComparatorInterface {
 
 
-    public void practiceComparator() {
+    public void testComparator() {
         List<User> users = new ArrayList<>();
         users.add(new User(3, "Anon"));
         users.add(new User(1, "Can"));

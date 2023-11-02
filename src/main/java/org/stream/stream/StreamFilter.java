@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamFilter {
-    public void practiceStreamFilter() {
+    public void testStreamFilter() {
         // Filter
         Stream<Integer> numberStream = Stream.of(3, -5, 7, -9, 11, -1);
         Stream<Integer> filteredNumberStream = numberStream.filter(x -> x > 0);

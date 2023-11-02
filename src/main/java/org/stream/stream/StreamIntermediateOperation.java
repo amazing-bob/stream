@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StreamIntermediateOperation {
-    public void practiceStreamIntermediateOperation() {
+    public void testStreamIntermediateOperation() {
         User user1 = new User()
                 .setId(101)
                 .setName("Alice")

@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 public class PredicateInterface {
 
 
-    public void practicePredicate() {
+    public void testPredicate() {
         Predicate<Integer> isPositive = x -> x > 0;
         System.out.println(isPositive.test(10));
         System.out.println(isPositive.test(-10));
