@@ -1,9 +1,6 @@
 package org.stream;
 
-import org.stream.advenced.AllMatchAnyMatch;
-import org.stream.advenced.FindFirstFindAny;
-import org.stream.advenced.MaxMinCount;
-import org.stream.advenced.Reduce;
+import org.stream.advenced.*;
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
 import org.stream.optional.OptionalTest;
@@ -101,5 +98,35 @@ public class Main {
         Reduce reduce = new Reduce();
         reduce.testReduce();
         System.out.println("---------- Reduce End -----------");
+
+        System.out.println("---------- Collectors Start -----------");
+        CollectorsTest collectorsTest = new CollectorsTest();
+        collectorsTest.testCollectors();
+        System.out.println("---------- Collectors End -----------");
+
+        System.out.println("---------- ToMap Start -----------");
+        ToMap toMap = new ToMap();
+        toMap.testToMap();
+        System.out.println("---------- ToMap End -----------");
+
+        System.out.println("---------- GroupingBy Start -----------");
+        GroupingBy groupingBy = new GroupingBy();
+        groupingBy.testGroupingBy();
+        System.out.println("---------- GroupingBy End -----------");
+
+        System.out.println("---------- PartitioningBy Start -----------");
+        PartitioningBy partitioningBy = new PartitioningBy();
+        partitioningBy.testPartitioningBy();
+        System.out.println("---------- PartitioningBy End -----------");
+
+        System.out.println("---------- ForEach Start -----------");
+        ForEach forEach = new ForEach();
+        forEach.testForEach();
+        System.out.println("---------- ForEach End -----------");
+
+        System.out.println("---------- ParallelStream Start -----------");
+        ParallelStream parallelStream = new ParallelStream();
+        parallelStream.testParallelStream();
+        System.out.println("---------- ParallelStream End -----------");
     }
 }
