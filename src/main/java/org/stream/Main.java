@@ -4,6 +4,8 @@ import org.stream.advenced.*;
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
 import org.stream.optional.OptionalTest;
+import org.stream.practice.LazyEvaluation;
+import org.stream.practice.ScopeClosureCurry;
 import org.stream.stream.*;
 
 public class Main {
@@ -128,5 +130,15 @@ public class Main {
         ParallelStream parallelStream = new ParallelStream();
         parallelStream.testParallelStream();
         System.out.println("---------- ParallelStream End -----------");
+
+        System.out.println("---------- ScopeClosureCurry Start -----------");
+        ScopeClosureCurry scopeClosureCurry = new ScopeClosureCurry();
+        scopeClosureCurry.testScopeClosureCurry();
+        System.out.println("---------- ScopeClosureCurry End -----------");
+
+        System.out.println("---------- LazyEvaluation Start -----------");
+        LazyEvaluation lazyEvaluation = new LazyEvaluation();
+        lazyEvaluation.testLazyEvaluation();
+        System.out.println("---------- LazyEvaluation End -----------");
     }
 }
