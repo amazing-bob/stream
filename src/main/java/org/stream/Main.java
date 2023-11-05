@@ -4,6 +4,7 @@ import org.stream.advenced.*;
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
 import org.stream.optional.OptionalTest;
+import org.stream.practice.FunctionComposition;
 import org.stream.practice.LazyEvaluation;
 import org.stream.practice.ScopeClosureCurry;
 import org.stream.stream.*;
@@ -140,5 +141,10 @@ public class Main {
         LazyEvaluation lazyEvaluation = new LazyEvaluation();
         lazyEvaluation.testLazyEvaluation();
         System.out.println("---------- LazyEvaluation End -----------");
+
+        System.out.println("---------- FunctionComposition Start -----------");
+        FunctionComposition functionComposition = new FunctionComposition();
+        functionComposition.testFunctionComposition();
+        System.out.println("---------- FunctionComposition End -----------");
     }
 }
