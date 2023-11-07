@@ -1,6 +1,9 @@
 package org.stream;
 
 import org.stream.advenced.*;
+import org.stream.designpattern.BuilderPattern;
+import org.stream.designpattern.DecoratorPattern;
+import org.stream.designpattern.StategyPattern;
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
 import org.stream.optional.OptionalTest;
@@ -146,5 +149,20 @@ public class Main {
         FunctionComposition functionComposition = new FunctionComposition();
         functionComposition.testFunctionComposition();
         System.out.println("---------- FunctionComposition End -----------");
+
+        System.out.println("---------- BuilderPattern Start -----------");
+        BuilderPattern builderPattern = new BuilderPattern();
+        builderPattern.testBuilderPattern();
+        System.out.println("---------- BuilderPattern End -----------");
+
+        System.out.println("---------- DecoratorPattern Start -----------");
+        DecoratorPattern decoratorPattern = new DecoratorPattern();
+        decoratorPattern.testDecoratorPattern();
+        System.out.println("---------- DecoratorPattern End -----------");
+
+        System.out.println("---------- StategyPattern Start -----------");
+        StategyPattern stategyPattern = new StategyPattern();
+        stategyPattern.testStategyPattern();
+        System.out.println("---------- StategyPattern End -----------");
     }
 }
