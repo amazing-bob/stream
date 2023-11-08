@@ -4,6 +4,7 @@ import org.stream.advenced.*;
 import org.stream.designpattern.BuilderPattern;
 import org.stream.designpattern.DecoratorPattern;
 import org.stream.designpattern.StategyPattern;
+import org.stream.designpattern.TemplateMethodPattern;
 import org.stream.functional.*;
 import org.stream.methodreference.MethodReference;
 import org.stream.optional.OptionalTest;
@@ -164,5 +165,10 @@ public class Main {
         StategyPattern stategyPattern = new StategyPattern();
         stategyPattern.testStategyPattern();
         System.out.println("---------- StategyPattern End -----------");
+
+        System.out.println("---------- TemplateMethodPattern Start -----------");
+        TemplateMethodPattern templateMethodPattern = new TemplateMethodPattern();
+        templateMethodPattern.testTemplateMethodPattern();
+        System.out.println("---------- TemplateMethodPattern End -----------");
     }
 }
